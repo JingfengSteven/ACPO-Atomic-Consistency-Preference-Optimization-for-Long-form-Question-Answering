@@ -1,9 +1,9 @@
 # ACPO DPO Tuning
 This is a fork of DPO to support ACPO alignment. Modified from code base [here](https://github.com/kttian/llm_factuality_tuning) and 
 # Our Changes
-We now support the addition of custom datasets.
-We've implemented Cosine Decay for the loss function.
-We've fixed the "Step" configuration issue.
+1. We now support the addition of custom datasets.
+2. We've implemented Cosine Decay for the loss function.
+3. We've fixed the "Step" configuration issue.
 
 
 # DPO: Direct Preference Optimization (This is the default Readme file in for the DPO base dir)
