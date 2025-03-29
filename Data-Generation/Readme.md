@@ -5,8 +5,8 @@
 - **`--model_id`**: Path to the LLaMA/Phi model used for generation.
 
 ### Initial Generation Parameters
-- **`--system_prompt_1`**: System prompt for the initial generation phase. The default prompt is:
-- **`--question_file`**: Path to question files, such as `"train.jsonl"` or `"dev.jsonl"`.
+- **`--system_prompt_1`**: System prompt for the initial generation phase.
+- **`--question_file`**: Path to question files, such as `"train.jsonl"`
 - **`--num_answers_per_question`**: Number of initial responses to generate per question, with a default of 30.
 - **`--max_new_tokens`**: Maximum number of tokens generated per response.
 - **`--temperatures_1`**: Temperature setting to control response randomness.
