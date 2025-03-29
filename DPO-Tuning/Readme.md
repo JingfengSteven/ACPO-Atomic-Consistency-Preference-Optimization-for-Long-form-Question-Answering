@@ -1,9 +1,12 @@
 # ACPO DPO Tuning
 This is a fork of DPO to support ACPO alignment. Modified from code base [here](https://github.com/kttian/llm_factuality_tuning) and 
+# Our Changes
+We now support the addition of custom datasets.
+We've implemented Cosine Decay for the loss function.
+We've fixed the "Step" configuration issue.
 
-# DPO: Direct Preference Optimization
 
-
+# DPO: Direct Preference Optimization (This is the default Readme file in for the DPO base dir)
 ## What is this repo?
 
 This repo includes a reference implementation of the DPO algorithm for training language models from preference data, as described in the paper [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290).
