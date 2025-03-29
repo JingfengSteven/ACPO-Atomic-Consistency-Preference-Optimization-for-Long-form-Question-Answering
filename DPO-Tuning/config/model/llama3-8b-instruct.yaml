@@ -1,1 +1,10 @@
+name_or_path: 
+tokenizer_name_or_path: 
+archive: null
+block_name: LlamaDecoderLayer
+
+policy_dtype: float32
+fsdp_policy_mp: null
+reference_dtype: bfloat16
+auth_token: None
 
