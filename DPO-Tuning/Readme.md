@@ -1,5 +1,5 @@
 # ACPO DPO Tuning
-This is a fork of DPO to support ACPO alignment. Modified from code base [here](https://github.com/kttian/llm_factuality_tuning) and 
+This is a fork of DPO to support ACPO alignment. Modified from code base [here](https://github.com/kttian/llm_factuality_tuning)
 # Our Changes
 1. We now support the addition of custom datasets.
 2. We've implemented Cosine Decay for the loss function.
