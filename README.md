@@ -37,3 +37,13 @@ pip install -r requirements.txt
 python -m nltk.downloader punkt
 
 
+Repository Structure
+ACPO/
+├── Data-Generation/           # Answer generation, clustering, and scoring
+├── DPO-Tuning/                # DPO training implementation
+├── Evaluation/                # FActScore evaluation tools
+├── generate_dpo_pairs.py      # Main data generation pipeline
+├── train.py                   # DPO training entry point
+└── requirements.txt           # Python dependencies
+
+
