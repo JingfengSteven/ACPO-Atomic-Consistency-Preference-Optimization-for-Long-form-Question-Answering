@@ -6,17 +6,17 @@ Large Language Models (LLMs) frequently produce factoid hallucinations—plausib
 
 ## Environment Setup
 We recommend creating a clean Conda environment to run this project:
+### Create and activate a new Conda environment
+conda create -n acpo python=3.9  
 
-
-# Create and activate a new Conda environment
-conda create -n acpo python=3.9
 conda activate acpo
 
-# Install required dependencies
-pip install -r requirements.txt
+### Install required dependencies
+pip install -r requirements.txt  
 
-# Download necessary NLTK data
-python -m nltk.downloader punkt
+
+### Download necessary NLTK data
+python -m nltk.downloader punkt  
 
 ## Results
 ### FactScore Accuracy
