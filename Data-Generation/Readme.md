@@ -1,3 +1,4 @@
+# Data Generation
 ## Run Command
 To run data generation, directly use the following command and config
 ```
