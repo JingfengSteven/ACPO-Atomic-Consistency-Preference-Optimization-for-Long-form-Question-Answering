@@ -1,4 +1,4 @@
-# Set Up
+## Run Command
 To run data generation, directly use the following command with config
 ```
 python pipline.py
