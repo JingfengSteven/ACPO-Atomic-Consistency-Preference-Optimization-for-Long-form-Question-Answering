@@ -5,9 +5,7 @@ This folder contains our custom utilization of the [FActScore](https://github.co
 
 To evaluate model generations using FActScore with ChatGPT as the verifier, use the following command:
 
-```bash
-nohup python -m factscore.factscorer \
+```python -m factscore.factscorer \
   --input_path "path to the jsonl file with question-answering pairs" \
   --model_name retrieval+ChatGPT \
   --openai_key "path to the openai_key .txt file" \
-  > Saved.log 2>&1 &
