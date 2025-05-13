@@ -1,5 +1,5 @@
 ## Run Command
-To run data generation, directly use the following command with config
+To run data generation, directly use the following command with following config
 ```
 python pipline.py
 ```
