@@ -1,4 +1,6 @@
 ## Setup
+\bash
+python pipline.py
 
 ### Experiment Directory and Model Path
 - **`--base_dir`**: The directory for the entire experiment, where outputs and logs are stored.
