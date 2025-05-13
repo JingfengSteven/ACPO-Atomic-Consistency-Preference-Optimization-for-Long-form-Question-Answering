@@ -8,11 +8,11 @@ Large Language Models (LLMs) frequently produce factoid hallucinations—plausib
 
 | **Method**       | **LongFact Score** | **#Claim** | **BioGen Score** | **#Claim** |
 |------------------|--------------------|------------|------------------|------------|
-| **Llama-3-8B**   |                    |            |                  |            |
+| **Llama-3-8B**                                                               
 | RawModel         | 79.8               | 121.2      | 55.9             | 61.0       |
 | FactAlign        | **83.3**           | 119.9      | 57.1             | 56.7       |
 | ACPO             | 82.1               | **143.8**  | **58.0**         | **68.0**   |
-| **Phi3-mini**    |                    |            |                  |            |
+| **Phi3-mini**                                                                
 | RawModel         | 78.0               | 90.2       | 41.7             | 88.4       |
 | FactAlign        | 81.2               | 113.8      | 47.1             | 100.9      |
 | ACPO             | **84.6**           | 70.7       | **51.8**         | 67.1       |
