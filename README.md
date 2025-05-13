@@ -22,22 +22,5 @@ Large Language Models (LLMs) frequently produce factoid hallucinations—plausib
 
 **Note:** *ACPO*, our self-supervised method, outperforms the strong supervised baseline *FactAlign* in **3 out of 4 settings**, achieving an average gain of **+1.95** in factual precision.
 
-🛠️ Environment Setup
-We recommend creating a clean Conda environment:
-
-conda create -n acpo python=3.9
-conda activate acpo
-pip install -r requirements.txt
-python -m nltk.downloader punkt
-
-
-Repository Structure
-ACPO/
-├── Data-Generation/           # Answer generation, clustering, and scoring
-├── DPO-Tuning/                # DPO training implementation
-├── Evaluation/                # FActScore evaluation tools
-├── generate_dpo_pairs.py      # Main data generation pipeline
-├── train.py                   # DPO training entry point
-└── requirements.txt           # Python dependencies
 
 
