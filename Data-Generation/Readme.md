@@ -1,5 +1,6 @@
 ## Setup
-\bash
+To run data generation, directly use the following command with config
+```
 python pipline.py
 
 ### Experiment Directory and Model Path
