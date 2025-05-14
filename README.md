@@ -6,9 +6,10 @@ Large Language Models (LLMs) frequently produce factoid hallucinations—plausib
 ## Repo Structure
 
 ACPO/  
-├── Data-Generation/           # Answer generation, clustering, and atomic fact scoring  
-├── DPO-Tuning/                # Training scripts for DPO  
-├── Evaluation/                # FActScore and analysis tools  
+├── Data-Generation/           
+├── DPO-Tuning/                
+├── Evaluation/ 
+
 
 
 
