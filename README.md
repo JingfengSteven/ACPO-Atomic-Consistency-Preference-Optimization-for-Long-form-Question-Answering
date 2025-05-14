@@ -10,9 +10,6 @@ ACPO/
 ├── DPO-Tuning/                
 ├── Evaluation/ 
 
-
-
-
 ## Results
 ### FactScore Accuracy
 
